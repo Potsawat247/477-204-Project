@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VYRON | Own Your Edge</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+<style>
+
+:root{
+
+  --black:#0f0f0f;
+
+  --charcoal:#1a1a1a;
+
+  --silver:#c9c9c9;
+
+  --metal:#9ea3a8;
+
+  --white:#ffffff;
+
+}
+
+*{
+
+  margin:0;
+
+  padding:0;
+
+  box-sizing:border-box;
+
+  font-family:'Inter',sans-serif;
+
+}
+
+body{
+
+  background:var(--black);
+
+  color:var(--silver);
+
+  line-height:1.6;
+
+}
+
+.container{
+
+  width:90%;
+
+  max-width:1200px;
+
+  margin:auto;
+
+}
+
+nav{
+
+  display:flex;
+
+  justify-content:space-between;
+
+  align-items:center;
+
+  padding:25px 0;
+
+}
+
+.logo{
+
+  font-weight:900;
+
+  font-size:24px;
+
+  letter-spacing:3px;
+
+  color:var(--white);
+
+}
+
+nav a{
+
+  color:var(--silver);
+
+  text-decoration:none;
+
+  margin-left:30px;
+
+  font-weight:500;
+
+  transition:0.3s;
+
+}
+
+nav a:hover{
+
+  color:var(--white);
+
+}
+
+.hero{
+
+  padding:120px 0;
+
+  text-align:center;
+
+}
+
+.hero h1{
+
+  font-size:56px;
+
+  font-weight:900;
+
+  color:var(--white);
+
+  margin-bottom:20px;
+
+}
+
+.hero p{
+
+  font-size:20px;
+
+  max-width:700px;
+
+  margin:auto;
+
+  margin-bottom:40px;
+
+  color:var(--metal);
+
+}
+
+.btn-primary{
+
+  background:linear-gradient(90deg,#d9d9d9,#9ea3a8);
+
+  color:#000;
+
+  padding:15px 40px;
+
+  border:none;
+
+  font-weight:700;
+
+  letter-spacing:1px;
+
+  cursor:pointer;
+
+  transition:0.3s;
+
+}
+
+.btn-primary:hover{
+
+  opacity:0.8;
+
+}
+
+.section{
+
+  padding:100px 0;
+
+}
+
+.section-title{
+
+  text-align:center;
+
+  font-size:36px;
+
+  font-weight:800;
+
+  margin-bottom:60px;
+
+  color:var(--white);
+
+}
+
+.grid{
+
+  display:grid;
+
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+  gap:40px;
+
+}
+
+.card{
+
+  background:var(--charcoal);
+
+  padding:40px;
+
+  border:1px solid #2a2a2a;
+
+  transition:0.3s;
+
+}
+
+.card:hover{
+
+  border-color:var(--metal);
+
+  transform:translateY(-5px);
+
+}
+
+.card h3{
+
+  color:var(--white);
+
+  margin-bottom:15px;
+
+  font-size:20px;
+
+}
+
+.card p{
+
+  color:var(--metal);
+
+}
+
+.cta{
+
+  background:var(--charcoal);
+
+  text-align:center;
+
+  padding:100px 20px;
+
+}
+
+.cta h2{
+
+  font-size:40px;
+
+  font-weight:900;
+
+  margin-bottom:20px;
+
+  color:var(--white);
+
+}
+
+footer{
+
+  padding:40px 0;
+
+  text-align:center;
+
+  font-size:14px;
+
+  color:var(--metal);
+
+  border-top:1px solid #1f1f1f;
+
+}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<div class="logo">VYRON</div>
+<div>
+<a href="#">About</a>
+<a href="#">Products</a>
+<a href="#">Contact</a>
+</div>
+</nav>
+</div>
+<section class="hero container">
+<h1>OWN YOUR EDGE.</h1>
+<p>VYRON is built for modern men who demand precision, presence, and performance. 
+
+     Minimal design. Maximum impact.</p>
+<button class="btn-primary">SHOP NOW</button>
+</section>
+<section class="section container">
+<h2 class="section-title">Why VYRON</h2>
+<div class="grid">
+<div class="card">
+<h3>Premium Construction</h3>
+<p>Crafted with high-grade materials engineered for durability, comfort, and elite performance.</p>
+</div>
+<div class="card">
+<h3>Minimalist Aesthetic</h3>
+<p>Clean lines. Matte textures. Refined masculinity that speaks without shouting.</p>
+</div>
+<div class="card">
+<h3>Performance Driven</h3>
+<p>Designed to elevate your presence—whether in business, fitness, or lifestyle.</p>
+</div>
+</div>
+</section>
+<section class="section container">
+<h2 class="section-title">Built For The Relentless</h2>
+<div class="grid">
+<div class="card">
+<h3>Confidence Amplified</h3>
+<p>Products engineered to enhance posture, profile, and presence.</p>
+</div>
+<div class="card">
+<h3>Engineered Precision</h3>
+<p>Every detail optimized for performance and long-term wear.</p>
+</div>
+<div class="card">
+<h3>Modern Identity</h3>
+<p>VYRON isn't fashion. It's a mindset.</p>
+</div>
+</div>
+</section>
+<section class="cta">
+<h2>Step Into Your Next Level.</h2>
+<button class="btn-primary">GET STARTED</button>
+</section>
+<footer>
+
+  © 2026 VYRON. All rights reserved.
+</footer>
+</body>
+</html>
+ 
